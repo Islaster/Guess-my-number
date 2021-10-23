@@ -1,9 +1,11 @@
 'use strict';
 //set up
+prompt('What is your name player?', '');
 let secretNumber = Math.floor(Math.random() * 20);
 let score = 20;
 let highscore = 0;
 console.log(secretNumber);
+
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   //if not a number

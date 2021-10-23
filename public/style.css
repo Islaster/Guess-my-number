@@ -117,3 +117,9 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+/*--------CREATE PAGE---------*/
+
+/*INPUT FIELD*/
+input[type='text'] {
+  padding: 0.8rem 1.6rem;
+}

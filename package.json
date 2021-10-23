@@ -1,0 +1,30 @@
+{
+  "name": "Guess-my-number",
+  "version": "1.0.0",
+  "description": "JavaScript Project",
+  "main": "leaderboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Islaster/Guess-my-number.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Islaster/Guess-my-number/issues"
+  },
+  "homepage": "https://github.com/Islaster/Guess-my-number#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "parser": "^0.1.4"
+  }
+}
