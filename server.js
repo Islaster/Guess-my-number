@@ -25,6 +25,10 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
+app.use((req, res, next) => {
+  next();
+});
+
 app.get('/', (req, res) => {
   res.render('create', { title: 'create' });
 });
